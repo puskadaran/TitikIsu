@@ -1,0 +1,130 @@
+    body {
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .navbar {
+      background-color: #fff;
+      
+    }
+    .navbar-brand {
+      font-weight: bold;
+      color: #0d1b3d !important;
+    }
+    .hero-section {
+      padding: 80px 0;
+      position: relative;
+      text-align: left;
+      
+    }
+    .hero-section h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .hero-section h1 span {
+      color: #e63946;
+    }
+    .divider {
+      width: 300px;
+      height: 2px;
+      background: #1da1f2;
+      margin: 20px 0;
+    }
+    .hero-section p {
+      max-width: 700px;
+      font-size: 1.2rem;
+      text-align: justify;
+    }
+    .btn-custom {
+      background: #00c6ff;
+      color: #fff;
+      padding: 12px 80px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .btn-custom:hover {
+      background-color: #0099cc;
+      color: #fff;
+    }
+    .hero-section .icons {
+      margin-top: 20px;
+    }
+    .hero-section .icons i {
+      font-size: 2rem;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+
+      .fungsi-card {
+    background: rgba(203, 203, 203, 0.157); /* transparan */
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .fungsi-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  }
+  .fungsi-card h4 {
+    border-left: 5px solid #e63946; /* garis merah di kiri judul */
+    padding-left: 10px;
+    margin-bottom: 15px;
+  }
+
+  .custom-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid red;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+.card-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.komite-section {
+  background: linear-gradient(90deg, #0a0a0a, #14145c, #1a1a9c);
+  color: white;
+  padding-bottom: 80px; /* supaya ada ruang bawah */
+}
+
+.komite-title {
+  font-size: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggle-icon {
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.card-title {
+    color: #b5ff4d;
+}
+
+.underline {
+  width: 300px;
+  height: 5px;
+  background-color: #b5ff4d;
+  border-radius: 5px;
+}
+
+/* Rotasi panah kalau terbuka */
+.toggle-icon[aria-expanded="true"] {
+  transform: rotate(180deg);
+}
